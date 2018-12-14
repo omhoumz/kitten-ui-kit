@@ -2,10 +2,14 @@
   "name": "ui-kit",
   "version": "1.0.0",
   "description": "A test React UI Kit",
-  "files": ["/dist/main.js"],
+  "files": [
+    "/dist/main.js"
+  ],
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production",
+    "release": "npm run build && npm publish"
   },
   "keywords": [
     "UI",
@@ -24,6 +28,7 @@
     "@babel/cli": "^7.2.0",
     "@babel/core": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
     "css-loader": "^2.0.0",
     "prop-types": "^15.6.2",
     "sass-loader": "^7.1.0",

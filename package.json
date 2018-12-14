@@ -1,11 +1,8 @@
 {
   "name": "kitten-ui-kit",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A test React UI Kit",
-  "files": [
-    "/dist/main.js"
-  ],
-  "main": "dist/index.js",
+  "main": "dist/bundle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
@@ -18,7 +15,7 @@
     "React",
     "js"
   ],
-  "author": "Omar Houmz",
+  "author": "Omar Houmz <omhoumz@gmail.com> (https://omarhoumz.github.io)",
   "license": "ISC",
   "dependencies": {
     "react": "^16.6.3",

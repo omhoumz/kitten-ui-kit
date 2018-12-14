@@ -1,6 +1,6 @@
 {
-  "name": "ui-kit",
-  "version": "1.0.0",
+  "name": "kitten-ui-kit",
+  "version": "1.0.1",
   "description": "A test React UI Kit",
   "files": [
     "/dist/main.js"
